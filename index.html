@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SQNA Stitchcraft | Garment Manufacturer in Cavite Philippines</title>
+
+<meta name="description" content="SQNA Stitchcraft is a professional garment manufacturer in Tanza Cavite Philippines specializing in uniforms, clothing brand production and custom apparel manufacturing.">
+
+<meta name="keywords" content="garment manufacturer Philippines, clothing manufacturer Cavite, uniform supplier Philippines, custom apparel production, sewing contractor Philippines">
+
+<meta name="author" content="SQNA Stitchcraft">
+
+<meta name="robots" content="index, follow">
+
+<!-- FACEBOOK PREVIEW -->
+
+<meta property="og:title" content="SQNA Stitchcraft - Garment Manufacturing">
+<meta property="og:description" content="Professional garment manufacturing for uniforms, clothing brands and custom apparel.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1523381294911-8d3cead13475">
+
+<!-- GOOGLE FONTS -->
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- ICONS -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- STRUCTURED DATA FOR GOOGLE -->
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "SQNA Stitchcraft",
+ "address": {
+ "@type": "PostalAddress",
+ "addressLocality": "Tanza",
+ "addressRegion": "Cavite",
+ "addressCountry": "Philippines"
+ },
+ "email": "sqna.stitchcraft@gmail.com",
+ "telephone": "+639952459757",
+ "sameAs": [
+ "https://www.facebook.com/profile.php?id=61584998347666"
+ ]
+}
+</script>
+
+<style>
+
+html{scroll-behavior:smooth;}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8fafc;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:white;
+padding:30px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+header h1{
+font-family:'Playfair Display';
+font-size:46px;
+color:#22c55e;
+}
+
+header p{color:#555;}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:15px;
+background:white;
+flex-wrap:wrap;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+nav a:hover{color:#22c55e;}
+
+/* HERO */
+
+.hero{
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h2{
+font-family:'Playfair Display';
+font-size:48px;
+}
+
+.hero p{margin-top:15px;font-size:20px;}
+
+.hero button{
+margin-top:25px;
+padding:15px 32px;
+background:#22c55e;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hero button:hover{background:#16a34a;}
+
+/* SECTION */
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section h2{
+font-family:'Playfair Display';
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+color:#16a34a;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.card h3{color:#16a34a;}
+
+/* PROCESS */
+
+.process{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+text-align:center;
+}
+
+.step{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 8px 18px rgba(0,0,0,.07);
+}
+
+/* PORTFOLIO */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+.contact{
+background:#f0fdf4;
+padding:60px 20px;
+text-align:center;
+}
+
+form{
+max-width:500px;
+margin:30px auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+form input, form textarea{
+padding:12px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+form button{
+padding:14px;
+background:#22c55e;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* MAP */
+
+.map{
+margin-top:40px;
+border-radius:10px;
+overflow:hidden;
+}
+
+/* FLOATING BUTTONS */
+
+.float-btn{
+position:fixed;
+right:25px;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:18px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.messenger{bottom:25px;background:#0084ff;}
+.facebook{bottom:90px;background:#1877f2;}
+.email{bottom:155px;background:#ea4335;}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>SQNA Stitchcraft</h1>
+<p>Precision in Every Stitch</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#process">Process</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+<div>
+
+<h2>Professional Garment Manufacturing</h2>
+
+<p>Uniforms • Clothing Brands • Custom Apparel Production</p>
+
+<button onclick="location.href='#contact'">Start Your Production</button>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<h2>About SQNA Stitchcraft</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;">
+
+SQNA Stitchcraft is a garment manufacturing company based in Tanza Cavite Philippines specializing in professional apparel production for businesses, clothing brands and organizations.
+
+</p>
+
+</section>
+
+<section id="services" class="section">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Uniform Manufacturing</h3>
+<p>Corporate, school and restaurant uniforms.</p>
+</div>
+
+<div class="card">
+<h3>Contract Sewing</h3>
+<p>Helping clothing brands manufacture their designs.</p>
+</div>
+
+<div class="card">
+<h3>Custom Apparel Production</h3>
+<p>T-shirts, hoodies, shorts and apparel production.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="process" class="section">
+
+<h2>Our Production Process</h2>
+
+<div class="process">
+
+<div class="step">Design Review</div>
+<div class="step">Sample Development</div>
+<div class="step">Fabric Cutting</div>
+<div class="step">Sewing & Assembly</div>
+<div class="step">Quality Inspection</div>
+
+</div>
+
+</section>
+
+<section id="portfolio" class="section">
+
+<h2>Our Work</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475" alt="garment manufacturing clothing production">
+
+<img src="https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg" alt="clothing garments production">
+
+<img src="https://img.freepik.com/free-photo/clothes-hanging_1339-3159.jpg" alt="apparel manufacturing garments">
+
+<img src="https://img.freepik.com/free-photo/still-life-with-classic-shirts-hanger_23-2150828581.jpg" alt="custom clothing production">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Start Your Production</h2>
+
+<form action="https://formsubmit.co/sqna.stitchcraft@gmail.com" method="POST">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<textarea name="message" rows="5" placeholder="Tell us about your project"></textarea>
+
+<button type="submit">Send Inquiry</button>
+
+</form>
+
+<p>Email: sqna.stitchcraft@gmail.com</p>
+
+<p>Phone: 0995 245 9757</p>
+
+<!-- GOOGLE MAP -->
+
+<div class="map">
+
+<iframe
+width="100%"
+height="350"
+style="border:0"
+loading="lazy"
+allowfullscreen
+src="https://maps.google.com/maps?q=Tanza%20Cavite&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 SQNA Stitchcraft</p>
+
+</footer>
+
+<!-- FLOATING CONTACT -->
+
+<a class="float-btn messenger" href="https://m.me/61584998347666" target="_blank">
+<i class="fab fa-facebook-messenger"></i>
+</a>
+
+<a class="float-btn facebook" href="https://www.facebook.com/profile.php?id=61584998347666" target="_blank">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a class="float-btn email" href="mailto:sqna.stitchcraft@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+<!-- MESSENGER CHAT -->
+
+<div id="fb-root"></div>
+
+<script async defer crossorigin="anonymous"
+src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"></script>
+
+<div class="fb-customerchat"
+attribution="setup_tool"
+page_id="61584998347666">
+</div>
+
+</body>
+</html>
